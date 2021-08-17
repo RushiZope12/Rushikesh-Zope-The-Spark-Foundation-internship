@@ -1,0 +1,131 @@
+body{
+    margin: 0;    padding: 0;   font-family: Arial;
+    
+}
+nav {
+    width: 100%;
+    background: transparent;
+    overflow:hidden;
+    position: fixed;
+    top: 0;
+}
+ul{
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li{
+    float: right;
+}
+a{
+    padding: 20px;
+    width: 110px;
+    display: block;
+    text-decoration: none;
+    color: rgb(252, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+#section1{
+    height: 790px;
+    background-image: linear-gradient(rgb(2, 243, 252), #a9eff18c), url("bg.jpeg");
+    background-size: cover;
+    display: inline-blocked;
+    width: 100%;
+}
+
+#section2{
+    height: 790px;
+    background-image: linear-gradient(rgb(2, 243, 252), #a9eff18c), url("bg.jpeg");
+    background-size: cover;
+    display: inline-blocked;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    text-decoration-color: rgb(99, 233, 238);
+    text-shadow: rgb(96, 243, 96);
+    padding: 0;
+    margin: 100px;
+    
+}
+#des{
+  text-decoration-color: red;
+}
+#contact-us{
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 25px 25px 25px 25px;
+  }
+  #contact-us .container {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    margin: 100px 300px;
+    background-image: linear-gradient(to right, #4df4d8 0% ,#25ff49 100%);
+    border-radius: 10px;
+  }
+  #contact-us input,
+  #contact-us textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #contact-us .container form {
+    width: 70%;
+  }
+  
+  #contact-us form h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  #contact-us form label {
+    color: white;
+    font: 1-3em sans-serif;
+  }
+  #contact-us button {
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(143, 46, 135), rgb(22, 56, 167));
+  }
+  
+  @media screen and (max-width: 858px){
+    #contact-us {
+      padding-top: 70px;
+    }
+    
+    #contact-us .container {
+      margin-top: 100px;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 90%;
+    }
+    
+    #contact-us button {
+      width: 130px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(216, 45, 45);
+    color: rgb(255, 238, 0);
+}
